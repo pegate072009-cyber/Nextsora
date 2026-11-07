@@ -1,0 +1,25 @@
+
+# Rust build files
+/target/
+
+# Private encryption and signing keys
+/private/
+*.key
+*.pem
+*.secret
+
+# Generated coin supply
+/genesis/
+/test-genesis/
+
+# Environment variables
+.env
+.env.*
+
+# Temporary files
+*.tmp
+*.log
+
+# Operating system files
+.DS_Store
+Thumbs.db
